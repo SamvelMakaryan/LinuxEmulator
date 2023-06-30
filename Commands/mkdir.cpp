@@ -116,6 +116,7 @@ std::string mkdir::operator()(const std::vector<std::string>& args, const std::v
                     Usage: mkdir [OPTION]... DIRECTORY...
                     Create the DIRECTORY(ies), if they do not already exist.
 
+					-m, --mode=MODE   set file mode (as in chmod), not a=rwx - umask
                     -p, --parents     no error if existing, make parent directories as needed.
                     -v, --verbose     print a message for each created directory.
                     --help     display this help and exit.

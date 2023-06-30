@@ -6,7 +6,7 @@ std::string rm::operator()(const std::vector<std::string>& args, const std::vect
     bool recursive = false;
     bool directory = false;
     for (auto& i : opts) {
-        if (i == "-r" || i == "R" || i == "--recursive") {
+        if (i == "-r" || i == "-R" || i == "--recursive") {
             recursive = true;
         } else if (i == "-v" || i == "--verbose") {
             verbose = true;

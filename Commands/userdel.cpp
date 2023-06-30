@@ -22,11 +22,10 @@ std::string userdel::operator()(const std::vector<std::string>& args, const std:
         if (opts.empty() || opts[0] == "--help") {
             return "\033[1;97m"s + 
                 R"(
-                Usage: useradd [-m]
+                Usage: userdel
 
                 Options:
-                
-                -m, --create-home             create the user's home directory
+
                     --help     display this help and exit.
                 )" + "\033[0m"s;
         } else {

@@ -1,3 +1,0 @@
-/home/samvel/c++/projects/LinuxEmuliator/build/CMakeFiles/Emuiliator.dir
-/home/samvel/c++/projects/LinuxEmuliator/build/CMakeFiles/edit_cache.dir
-/home/samvel/c++/projects/LinuxEmuliator/build/CMakeFiles/rebuild_cache.dir

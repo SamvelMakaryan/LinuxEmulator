@@ -29,4 +29,4 @@ set(SOURCES
     Commands/whoami.cpp
 )
 
-add_executable(Emuiliator ${SOURCES})
+add_executable(Emulator ${SOURCES})
