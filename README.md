@@ -15,22 +15,22 @@ This program supports following commands with appropriate options.
 - Commands  | options
 
 - mkdir     | [-p, -v, -m, --verbose, --parents, --version]
-- rmdir		| [-p, -v, --parents, --verbose, --help, --version]
-- touch 	| [--help, --version]
-- rm 		| [-r, -R, -v, -d, --verbose, --dir, --help, --version]
-- cd		| [--help]
-- cal		| no options 
-- cat		| [-n, -b, --number, --number-nonblank, --help, --version]
-- chmod		| [-v, -c, -R, --verbose, --changes, --recursive, --help, --version]
-- date		| no options
-- history	| [-c, --help]
-- ls		| [-l, -a, -la, -A, --all, --almost-all, --help, --version]
-- pwd		| [--help]
-- su		| [--help, --version]
-- useradd	| [-m, --create-home, --help]
-- userdel	| [--help]
-- whoami	| [--help, --version]
-- exit		| no options 
+- rmdir		  | [-p, -v, --parents, --verbose, --help, --version]
+- touch 	  | [--help, --version]
+- rm 		    | [-r, -R, -v, -d, --verbose, --dir, --help, --version]
+- cd		    | [--help]
+- cal		    | no options 
+- cat		    | [-n, -b, --number, --number-nonblank, --help, --version]
+- chmod		  | [-v, -c, -R, --verbose, --changes, --recursive, --help, --version]
+- date		  | no options
+- history	  | [-c, --help]
+- ls		    | [-l, -a, -la, -A, --all, --almost-all, --help, --version]
+- pwd		    | [--help]
+- su		    | [--help, --version]
+- useradd	  | [-m, --create-home, --help]
+- userdel	  | [--help]
+- whoami	  | [--help, --version]
+- exit		  | no options 
 
 ## Usage
 
