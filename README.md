@@ -41,4 +41,7 @@ This program supports following commands with appropriate options.
 5. Run "make".
 6. Use executable Emulator.
 
+### Example
+
+![Screenshot from 2023-07-02 14-23-55](https://github.com/SamvelMakaryan/LinuxEmulator/assets/123547362/02fdad50-9d3a-4858-ad6b-f6ccacfbb920)
 
