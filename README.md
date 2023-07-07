@@ -9,7 +9,7 @@ The Linux Emulator is a project that simulates a Linux environment(filesystem, c
 - **Command Execution**: The emulator allows users to execute Linux commands directly from the terminal, providing a familiar command-line interface.
 - **File System**: The project provides a simulated file system that mimics the file structure and organization of a Linux distribution.
 
-##Commands
+## Commands
 This program supports following commands with appropriate options.
 
 - Commands  | options
