@@ -43,5 +43,7 @@ This program supports following commands with appropriate options.
 
 ### Example
 
+![Screenshot from 2023-07-19 17-34-00](https://github.com/SamvelMakaryan/LinuxEmulator/assets/123547362/27e0a607-404c-4f84-8489-3b5e8802af68)
+
 ![Screenshot from 2023-07-02 14-23-55](https://github.com/SamvelMakaryan/LinuxEmulator/assets/123547362/02fdad50-9d3a-4858-ad6b-f6ccacfbb920)
 
