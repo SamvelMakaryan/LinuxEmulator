@@ -3,22 +3,22 @@
 System::System()
  : m_history {}
 {
-    m_commands["mkdir"] = new mkdir;
-    m_commands["ls"] = new ls;
-    m_commands["cd"] = new cd;
-    m_commands["touch"] = new touch;
-    m_commands["pwd"] = new pwd;
-    m_commands["rmdir"] = new rmdir;
-    m_commands["rm"] = new rm;
-    m_commands["date"] = new date;
-    m_commands["cal"] = new cal;
-    m_commands["chmod"] = new chmod;
-    m_commands["history"] = new history;
-    m_commands["cat"] = new cat;
-    m_commands["useradd"] = new useradd;
-    m_commands["userdel"] = new userdel;
-    m_commands["su"] = new su;
-    m_commands["whoami"] = new whoami;
+    m_commands.insert(std::make_pair("mkdir", new mkdir));
+    m_commands.insert(std::make_pair("ls", new ls));
+    m_commands.insert(std::make_pair("cd", new cd));
+    m_commands.insert(std::make_pair("touch", new touch));
+    m_commands.insert(std::make_pair("pwd", new pwd));
+    m_commands.insert(std::make_pair("rmdir", new rmdir));
+    m_commands.insert(std::make_pair("rm", new rm));
+    m_commands.insert(std::make_pair("date", new date));
+    m_commands.insert(std::make_pair("cal", new cal));
+    m_commands.insert(std::make_pair("chmod", new chmod));
+    m_commands.insert(std::make_pair("history", new history));
+    m_commands.insert(std::make_pair("cat", new cat));
+    m_commands.insert(std::make_pair("useradd", new useradd));
+    m_commands.insert(std::make_pair("userdel", new userdel));
+    m_commands.insert(std::make_pair("su", new su));
+    m_commands.insert(std::make_pair("whoami", new whoami));
     createTree();
 }
 
