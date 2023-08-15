@@ -3,7 +3,7 @@
 #include <sstream>
 #include <string>
 #include <vector>
-#include "../System.hpp"
+#include "../src/System.hpp"
 #include "Command.hpp"
 
 class cd : public Command {

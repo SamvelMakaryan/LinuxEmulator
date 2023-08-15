@@ -4,8 +4,8 @@
 #include <string>
 #include <vector>
 #include "Command.hpp"
-#include "../TxtFile.hpp"
-#include "../System.hpp"
+#include "../src/TxtFile.hpp"
+#include "../src/System.hpp"
 #include "cd.hpp"
 
 class touch : public Command {

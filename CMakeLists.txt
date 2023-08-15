@@ -2,15 +2,15 @@ cmake_minimum_required(VERSION 3.0)
 project(Emuliator)
 
 set(SOURCES 
-    Component.cpp
-    FileSystemComponent.cpp
-    Directory.cpp
-    File.cpp
-    TxtFile.cpp
-    Group.cpp
-    User.cpp
-    System.cpp
-    Emulator.cpp
+    src/Component.cpp
+    src/FileSystemComponent.cpp
+    src/Directory.cpp
+    src/File.cpp
+    src/TxtFile.cpp
+    src/Group.cpp
+    src/User.cpp
+    src/System.cpp
+   	src/Emulator.cpp
     Commands/mkdir.cpp
     Commands/ls.cpp
     Commands/cd.cpp

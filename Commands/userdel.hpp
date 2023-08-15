@@ -1,6 +1,6 @@
 #ifndef USERDEL_HPP_
 #define USERDEL_HPP_
-#include "../System.hpp"
+#include "../src/System.hpp"
 #include "Command.hpp"
 
 class userdel : public Command {

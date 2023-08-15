@@ -1,7 +1,7 @@
 #ifndef WHOAMI_HPP_
 #define WHOAMI_HPP_
 #include <string>
-#include "../System.hpp"
+#include "../src/System.hpp"
 #include "Command.hpp"
 
 class whoami : public Command {

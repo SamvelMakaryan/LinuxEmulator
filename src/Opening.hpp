@@ -4,7 +4,7 @@
 #include <iostream>
 
 void opening() {
-	std::cout << "\033[5;34m" R"(
+	std::cout << "\x1B[8;33;90t " << "\033[5;34m" R"(
 	
 		
 		$$\       $$$$$$\ $$\   $$\ $$\   $$\ $$\   $$\ 

@@ -1,7 +1,7 @@
 #ifndef SU_HPP_
 #define SU_HPP_
 #include <string>
-#include "../System.hpp"
+#include "../src/System.hpp"
 #include "Command.hpp"
 
 class su : public Command {

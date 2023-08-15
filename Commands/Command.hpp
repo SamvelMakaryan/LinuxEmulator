@@ -2,7 +2,7 @@
 #define COMMAND_HPP_
 #include <vector>
 #include <string>
-#include "../Directory.hpp"
+#include "../src/Directory.hpp"
 
 class Command {
 public:
